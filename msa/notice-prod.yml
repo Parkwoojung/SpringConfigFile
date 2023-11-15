@@ -60,3 +60,7 @@ server:
   port: '12000'
 api:
   gateway: localhost:11000
+  boot:
+    admin:
+      client:
+        url: http://localhost:15000
